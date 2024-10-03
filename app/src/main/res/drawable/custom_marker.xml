@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Слой для синего круга -->
+    <item
+        android:drawable="@drawable/ic_tracker_75dp"
+        android:width="64dp"
+        android:height="64dp"
+        />
+
+
+    <!-- Слой для изображения, делаем его круглым и задаем размеры -->
+    <item
+        android:drawable="@drawable/person_ic"
+        android:width="48dp"
+        android:height="48dp"
+        android:top="6dp"
+        android:bottom="2dp"
+        android:left="8dp"
+        android:right="8dp" />
+</layer-list>
